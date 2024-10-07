@@ -33,7 +33,7 @@
   --text2-size: 1.125rem;
   --text3-size: 1rem;
 }
-
-* {
+body {
   font-family: "Inter", sans-serif;
+  background-color: #1d2124;
 }
