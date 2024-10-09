@@ -19,8 +19,16 @@
 }
 .header__logo,
 .header__button,
-.banner__button {
+.banner__button,
+.faq__button,
+.modal__button,
+.modal__close {
   cursor: pointer;
+}
+.banner__button:hover,
+.faq__button:hover,
+.modal__button:hover {
+  background-color: var(--brand-color2);
 }
 .header__button {
   padding: 1.25rem 2rem;
@@ -110,20 +118,19 @@
   font-weight: var(--text-weight);
   color: var(--gray-4);
 }
-.faq__button {
+.faq__button,
+.modal__button {
   background-color: var(--brand-color1);
   border: solid 1px var(--brand-color1);
   padding: 1.25rem 2rem;
-  gap: 10px;
   color: var(--gray-7);
 }
 .faq__list {
-  gap: 3.75rem;
   display: flex;
   flex-direction: column;
+  gap: 3.75rem;
   padding-left: 9.75rem;
 }
-
 .faq__question {
   text-align: center;
   font-size: var(--title3-size);

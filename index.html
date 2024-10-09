@@ -8,7 +8,8 @@
     <link rel="stylesheet" href="./src/styles/reset.css" />
     <link rel="stylesheet" href="/src/styles/globalStyles.css" />
     <link rel="stylesheet" href="/src/styles/index.css" />
-    <script src="/src/scripts/index.js"></script>
+    <link rel="stylesheet" href="/src/styles/modal.css" />
+    <script src="./src/scripts/index.js"></script>
   </head>
   <body>
     <!-- ====== Header ====== -->
@@ -203,6 +204,29 @@
     </footer>
 
     <!-- ====== Modal ====== -->
-    <dialog></dialog>
+
+    <dialog class="modal">
+      <div class="modal__container">
+        <div class="modal__header">
+          <h3 class="modal__title">Cadastro</h3>
+          <button type="button" class="modal__close">X</button>
+        </div>
+        <p class="modal__text">
+          Lorem Ipsum is simply dummy text of the printing and typesetting
+          industry. Lorem Ipsum has been the industry's standard dummy text ever
+          since the 1500s
+        </p>
+        <input
+          class="modal__input"
+          type="email"
+          placeholder="Digitar email"
+          name=""
+          id=""
+        />
+        <button class="modal__button" type="button">
+          Entrar na lista para próxima turma
+        </button>
+      </div>
+    </dialog>
   </body>
 </html>
