@@ -9,16 +9,19 @@
     <link rel="stylesheet" href="/src/styles/globalStyles.css" />
     <link rel="stylesheet" href="/src/styles/index.css" />
     <link rel="stylesheet" href="/src/styles/modal.css" />
+    <link rel="stylesheet" href="/src/styles/mediaQueries.css" />
     <script src="./src/scripts/index.js"></script>
   </head>
   <body>
     <!-- ====== Header ====== -->
-    <header>
-      <nav class="header__container">
-        <img class="header__logo" src="src/assets/logo.svg" alt="Logo" />
-        <button type="button" class="header__button">
-          Entrar para próxima turma
-        </button>
+    <header class="header">
+      <nav class="header__nav">
+        <div class="header__container">
+          <img class="header__logo" src="src/assets/logo.svg" alt="Logo" />
+          <button type="button" class="header__button">
+            Entrar para próxima turma
+          </button>
+        </div>
       </nav>
     </header>
     <main class="main__container">
@@ -31,8 +34,8 @@
           </h1>
           <p class="banner__description">
             Lorem Ipsum is simply dummy text of the printing and typesetting
-            industry. <br />Lorem Ipsum has been the industry's standard dummy
-            text ever since the 1500s
+            industry. Lorem Ipsum has been the industry's standard dummy text
+            ever since the 1500s
           </p>
           <button class="banner__button">Sobre nós</button>
         </div>
